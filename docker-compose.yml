@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  database:
+    container_name: mysql-database
+    image: mysql:8.0
+    volumes:
+      - /var/lib/docker/volumes/mysql-cashforce-project/_data:/var/lib/mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: mypassword
+      MYSQL_DATABASE: cashforce
+    restart: always
