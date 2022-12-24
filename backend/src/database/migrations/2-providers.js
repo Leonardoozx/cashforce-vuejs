@@ -2,7 +2,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('buyers', {
+    await queryInterface.createTable('providers', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -32,7 +32,7 @@ module.exports = {
         defaultValue: null,
       },
       responsibleEmail: {
-        field: 'responsbile_email',
+        field: 'responsible_email',
         type: Sequelize.STRING,
         allowNull: true,
         defaultValue: null,
@@ -96,6 +96,27 @@ module.exports = {
         allowNull: true,
         defaultValue: null,
       },
+      bank: {
+        type: Sequelize.STRING,
+        allowNull: true,
+        defaultValue: null,
+      },
+      bankAgency: {
+        field: 'bank_agency',
+        type: Sequelize.STRING,
+        allowNull: true,
+        defaultValue: null,
+      },
+      account: {
+        type: Sequelize.STRING,
+        allowNull: true,
+        defaultValue: null,
+      },
+      documents: {
+        type: Sequelize.STRING,
+        allowNull: true,
+        defaultValue: null,
+      },
       phoneNumber: {
         field: 'phone_number',
         type: Sequelize.STRING,
@@ -128,11 +149,12 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: true,
         defaultValue: null,
-      },
-      confirm: {
-        type: Sequelize.TINYINT,
-        allowNull: true,
-        defaultValue: 1,
+        onUpdate: null,
+        onDelete: 'CASCADE',
+        references: {
+          model: 'cnpjs',
+          key: 'id',
+        },
       },
       email: {
         type: Sequelize.STRING,
@@ -142,6 +164,6 @@ module.exports = {
     });
   },
   async down(queryInterface, _Sequelize) {
-    await queryInterface.dropTable('buyers');
+    await queryInterface.dropTable('providers');
   },
 };
