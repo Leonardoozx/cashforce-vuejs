@@ -17,8 +17,8 @@ data de emissão, valor e arquivos anexados.
 
 - Na raiz do projeto rode o comando `docker-compose up -d`
 - Após a inicialização dos containers, aguarde pelo menos 15 segundos para que o projeto esteja no ar
-- Entre em [http://localhost:8080](http://localhost:8080) para visualizar o frontend
-- Entre em [http://localhost:3001/orders](http://localhost:3001/orders) para visualizar o backend
+- Entre em [http://localhost:8080](http://localhost:8080) para visualizar o `frontend`
+- Entre em [http://localhost:3001/orders](http://localhost:3001/orders) para visualizar o `backend`
 - Aproveite :)
 
 ## Curiosidades durante o desenvolvimento:
