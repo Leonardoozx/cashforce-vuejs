@@ -24,7 +24,7 @@ data de emissão, valor e arquivos anexados.
 ## Curiosidades durante o desenvolvimento:
 
 - Antes deste teste técnico ainda não tinha tido nenhum contato com Vue.JS
-- Aprendi Vue.JS por meio de um vídeo de 1 hora do youtube, este vídeo: [https://youtu.be/cSa-SMVMGsE](https://youtu.be/cSa-SMVMGsE), caso tenham curiosidade
+- Aprendi Vue.JS alguns minutos antes de começar o desenvolvimento do frontend por meio de um vídeo de 1 hora do youtube, este vídeo: [https://youtu.be/cSa-SMVMGsE](https://youtu.be/cSa-SMVMGsE)
 - Concretizei meus conhecimentos nos relacionamentos entre tabelas (camada Model) do Sequelize
 - Concretizei ainda mais meus conhecimentos em Docker (docker-compose)
 - Entendi como funciona um Single File Component
