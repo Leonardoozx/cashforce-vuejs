@@ -42,8 +42,7 @@
   }
 
   #sidebar article img {
-    margin-right: 15px;
-    margin-left: 5px;
+    margin: 0 5px;
     width: 45px;
   }
 
