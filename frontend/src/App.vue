@@ -38,7 +38,7 @@ export default {
 main {
   height: 100vh;
   background-color: #ffffff;
-  width: 79.5%;
+  width: 87.7%;
   box-shadow: 0px 10px 30px rgba(225, 229, 236, 0.5);
   float: right;
 }

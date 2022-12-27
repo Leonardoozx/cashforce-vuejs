@@ -17,7 +17,7 @@
 
 <style>
   #sidebar {
-    width: 20%;
+    width: 12%;
     background-color: rgb(251,253,254);
     height: 100vh;
     display: flex;
@@ -31,6 +31,7 @@
     padding-left: 15px;
     padding-top: 10px;
     margin-bottom: 10px;
+    width: 170px;
   }
 
   #sidebar article {
