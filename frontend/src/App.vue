@@ -4,6 +4,7 @@
     <main>
       <hr id="hr" />
       <Header />
+      <FiscalNotesCard />
     </main>
   </div>
 </template>
@@ -11,12 +12,14 @@
 <script>
 import SideBar from './components/SideBar.vue';
 import Header from './components/Header.vue';
+import FiscalNotesCard from './components/FiscalNotesCard.vue';
 
 export default {
   name: 'App',
   components: {
     SideBar,
-    Header
+    Header,
+    FiscalNotesCard
   }
 }
 </script>
@@ -41,7 +44,8 @@ main {
 }
 
 #hr {
-  margin-top: 100px;
+  margin-top: 50px;
+  padding: 0px;
   border: 1px solid rgb(239, 240, 245);
 }
 </style>

@@ -1,23 +1,23 @@
 <template>
-  <div id="fiscal-notes-container">
+  <div id="fiscal-notes-header-container">
     <header>
       <div>
         <img src="https://imgur.com/hRTHpO8.png" alt="hands">
         <h3>Notas fiscais</h3>
       </div>
       <p>Visualize as notas fiscais que você tem.</p>
-      </header>
+    </header>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'FiscalNotes'
+  name: 'Header'
 }
 </script>
 
 <style>
-#fiscal-notes-container {
+#fiscal-notes-header-container {
   padding: 30px;
 }
 
@@ -38,7 +38,7 @@ header img {
 }
 
 header p {
-  opacity: 60%;
+  color: rgb(114, 125, 148);
   font-size: 20px;
   margin-top: 2.5px;
 }
