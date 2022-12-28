@@ -13,7 +13,7 @@ export default {
   data() {
     return {
       title: "Bem vindo à Cashforce",
-      subtitle: "Você tem a forca. Multiplique-a."
+      subtitle: "Você tem a força. Multiplique-a."
       };
 
   },
