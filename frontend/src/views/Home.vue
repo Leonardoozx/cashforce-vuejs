@@ -15,7 +15,6 @@ export default {
       title: "Bem vindo à Cashforce",
       subtitle: "Você tem a força. Multiplique-a."
       };
-
   },
   components: {
     Header,

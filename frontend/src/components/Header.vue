@@ -1,6 +1,7 @@
 <template>
   <header id="fiscal-notes-header-container">
     <div>
+      <!-- if the page is not the fiscal-notes one, it does not need the handshake img -->
       <img v-if="title.includes('fiscais')" src="https://imgur.com/hRTHpO8.png" alt="hands" />
       <h3>{{ title }}</h3>
     </div>
