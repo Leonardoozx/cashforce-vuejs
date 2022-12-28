@@ -1,19 +1,18 @@
 <template>
-  <div id="fiscal-notes-header-container">
-    <header>
-      <div>
-        <img src="https://imgur.com/hRTHpO8.png" alt="hands">
-        <h3>Notas fiscais</h3>
-      </div>
-      <p>Visualize as notas fiscais que você tem.</p>
-    </header>
-  </div>
+  <header id="fiscal-notes-header-container">
+    <div>
+      <img v-if="title.includes('fiscais')" src="https://imgur.com/hRTHpO8.png" alt="hands" />
+      <h3>{{ title }}</h3>
+    </div>
+    <p>{{ subtitle }}</p>
+  </header>
 </template>
 
 <script>
 export default {
-  name: 'Header'
-}
+  name: "Header",
+  props: ['title', 'subtitle'],
+};
 </script>
 
 <style>
