@@ -1,4 +1,4 @@
-# Teste técnico - Cashforce
+# Cashforce Vue.js
 
 - Frontend feito com: Vue.JS
 - Backend feito com: Express.JS e Sequelize (mysql2)
